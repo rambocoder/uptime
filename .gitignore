@@ -1,0 +1,8 @@
+*~
+\#*
+bin
+obj
+publish
+
+# ignore all . folders but include . files
+.*/
