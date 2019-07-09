@@ -10,5 +10,7 @@ You can find the docker image for this project [here](https://hub.docker.com/r/r
 
 ## CircleCI
 
-## Azure DevOps
+## Azure DevOps Pipeline
+
+[![Build Status](https://dev.azure.com/azure8/uptime/_apis/build/status/rambocoder.uptime?branchName=master)](https://dev.azure.com/azure8/uptime/_build/latest?definitionId=1&branchName=master)
 
