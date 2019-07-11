@@ -5,14 +5,17 @@ build:
     - script:
         name: build
         code: |
+          cd src
           dotnet build
     - script:
         name: publish
         code: |
+          cd src
           dotnet publish -o publish  
     - script:
         name: copy binary
         code: |
+          cd src
           cp -r . $WERCKER_OUTPUT_DIR/app 
           cd $WERCKER_OUTPUT_DIR/app
 deploy:
