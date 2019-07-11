@@ -6,10 +6,12 @@ namespace test
 {
     public class UnitTest1
     {
+        private readonly HomeController _homeController = new HomeController();
         [Fact]
         public void Test1()
         {
-            var homeController = new HomeController();
+
+            var teams = _homeController.GetAllTeams();
 
         }
     }
